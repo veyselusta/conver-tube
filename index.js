@@ -19,5 +19,3 @@ app.use('/download', downloadRouter)
 app.listen(PORT, ()=>{
   console.log('server şahlandı')
 })
-
-module.exports = PORT
