@@ -1,9 +1,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="images/logo.png" alt="Logo">
+    <a href ='https://covertube.herokuapp.com'>
+	<img src="images/logo.png" alt="Logo">
+   </a>
+    
 </p>
 
+<p>You can checkout and see the website <a href='https://covertube.herokuapp.com/'>here</a></p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
