@@ -1,8 +1,8 @@
-const PORT = require('../index.js')
+const port = require('../index.js')
 
 const button = document.querySelector('.convert-button')
 const URL = document.querySelector('.input')
-const PORT = process.env.PORT || 7000
+const PORT = port || 7000
 
 button.addEventListener('click', ()=>{
   send(URL.value)
