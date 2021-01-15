@@ -2,12 +2,12 @@
 <br />
 <p align="center">
     <a href ='https://covertube.herokuapp.com'>
-	<img src="images/logo.png" alt="Logo">
-   </a>
+	<img src="image.png" alt="Logo">
+    </a>
     
 </p>
 
-<p>You can checkout and see the website <a href='https://covertube.herokuapp.com/'>here</a></p>
+<p>You can checkout and see the website <a href='https://covertube.herokuapp.com/'>covertube.herokuapp.com</a></p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -37,8 +37,6 @@
 This website allows you to download youtube videos thanks to the youtube address entered
 
 ### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * Node.js
 * HTML
 * CSS
@@ -52,8 +50,6 @@ This section should list any major frameworks that you built your project using.
 
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -74,7 +70,6 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Install NPM packages
    ```sh
    npm run watch
    ```
