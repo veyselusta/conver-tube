@@ -5,6 +5,6 @@ button.addEventListener('click', ()=>{
   send(URL.value)
 })
 
-const send = ()=>{
-  fetch('localhost:3000')
+const send = (URL)=>{
+  window.location.href = `http://localhost:7000/download?url=${URL}`
 }
