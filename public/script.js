@@ -1,3 +1,5 @@
+const PORT = require('../index.js')
+
 const button = document.querySelector('.convert-button')
 const URL = document.querySelector('.input')
 const PORT = process.env.PORT || 7000
@@ -9,3 +11,4 @@ button.addEventListener('click', ()=>{
 const send = (URL)=>{
   window.location.href = `http://${PORT}/download?url=${URL}`
 }
+
