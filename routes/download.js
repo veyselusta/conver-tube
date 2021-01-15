@@ -3,11 +3,8 @@ const ytdl = require('ytdl-core')
 
 router.get('/', (req,res)=>{
   const url = req.query.url
-  res.header('Content-Disposition', 'attachment; filename = video.mp4')
+  res.header("Content-Disposition", 'attachment; filename="Video.mp4');
 
-  ytdl(url, {
-    format : 'mp4'
-  }).pipe(res)
-})
+  ytdl(url, {format : 'mp4'}).pipe(res)})
 
 module.exports = router
