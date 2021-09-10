@@ -7,8 +7,6 @@
     
 </p>
 
-<p>You can checkout and see the website <a href='https://covertube.herokuapp.com/'>covertube.herokuapp.com</a></p>
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
